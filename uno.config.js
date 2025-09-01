@@ -35,6 +35,10 @@ const cssExtend = {
     'white-space': 'normal',
     'word-wrap': 'break-word',
   },
+
+  '.prose': {
+    'max-width': 'none !important',
+  },
 }
 
 export default defineConfig({
@@ -73,6 +77,7 @@ export default defineConfig({
   },
   shortcuts: [
     ['post-title', 'text-5 font-bold lh-7.5 m-0'],
+    ['prose-max-w-none', 'max-w-none!'],
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
   safelist: [
