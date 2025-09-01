@@ -42,7 +42,7 @@ export const userConfig: Partial<UserConfig> = {
     locale: 'en-us',
     colorsLight: {
       primary: '#2e405b',
-      background: '#ffffff',
+      background: '#f8f9fa', // Change from '#ffffff' to a light gray
     },
     colorsDark: {
       primary: '#FFFFFF',
