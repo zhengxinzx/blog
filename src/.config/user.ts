@@ -55,7 +55,7 @@ export const userConfig: Partial<UserConfig> = {
     },
   },
   seo: {
-    twitter: '@moeyua13',
+    twitter: '',
     meta: [],
     link: [],
   },
